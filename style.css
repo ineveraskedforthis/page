@@ -1,0 +1,25 @@
+article {
+	margin: 0.3rem;
+	padding: 0.3rem;
+	background-color: #eeeeee;
+}
+
+nav {
+	border-bottom: 1px solid black;
+}
+
+.nav_list ol {
+	list-style-type: none;
+}
+
+.nav_list_item {
+	display: inline-block;
+}
+
+.nav_list_item a::after {
+	display: inline-block;
+	color: black;
+	content: "⇒";
+	padding-left: 1em;
+	padding-right: 1em;
+}
